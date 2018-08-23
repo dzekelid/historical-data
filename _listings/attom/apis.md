@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-
 x-kinRank: "7"
 x-alexaRank: "359677"
 tags: Historical Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/attom/apis.md
 specificationVersion: "0.14"
 apis:

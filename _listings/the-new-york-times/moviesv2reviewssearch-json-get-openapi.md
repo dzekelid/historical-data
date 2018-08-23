@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Move Review Search
+  title: The New York Times Movie Review Search
   description: With the Movie Reviews API, you can search New York Times movie reviews
     by keyword and get lists of NYT Critics' Picks.
   termsOfService: https://developer.nytimes.com/tou
@@ -228,7 +228,7 @@ paths:
       - Geo
   /movies/v2/reviews/search.json:
     get:
-      summary: Move Review Search
+      summary: Movie Review Search
       description: With the Movie Reviews API, you can search New York Times movie
         reviews by keyword and get lists of NYT Critics' Picks.
       operationId: getMoveReviews

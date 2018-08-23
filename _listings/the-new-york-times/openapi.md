@@ -227,7 +227,7 @@ paths:
       - Geo
   /movies/v2/reviews/search.json:
     get:
-      summary: Move Review Search
+      summary: Movie Review Search
       description: With the Movie Reviews API, you can search New York Times movie
         reviews by keyword and get lists of NYT Critics' Picks.
       operationId: getMoveReviews

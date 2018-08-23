@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 0
 info:
-  title: New York Times Best Seller List by Date
+  title: The New York Times Best Seller List by Date
   description: You can optionally request an overview for a specific published date
     using the published_date query parameter.
   termsOfService: https://developer.nytimes.com/tou

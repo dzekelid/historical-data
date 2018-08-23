@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Historical Data
-created: "2018-08-21"
-modified: "2018-08-21"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
 apis:
