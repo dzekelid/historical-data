@@ -1,111 +1,660 @@
 {
-	"name": "ATTOM",
-	"x-slug": "attom",
-	"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28881-api-developer-attomdata-com.jpg",
-	"x-kinRank": "7",
-	"x-alexaRank": "359677",
-	"tags": "Historical Data",
-	"created": "2018-08-23",
-	"modified": "2018-08-23",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/apis.md",
+	"name": "Streadata.io API Gallery - Historical Data",
+	"description": "This is a repository of historical data APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/historical-data.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://historical-data.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Attom Data Solutions API",
-			"x-api-slug": "attom-data-solutions-api",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28881-api-developer-attomdata-com.jpg",
-			"humanURL": "https:\/\/api.developer.attomdata.com",
-			"baseURL": "https:\/\/search.onboard-apis.com\/\/communityapi\/v2.0.0",
-			"tags": "SaaS, Technology, Enterprise, Real Estate, Places, Schools, Properties, General Data, Historical Data API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/salestrendsnapshot-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/salestrendsnapshot-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Attom Data Solutions API",
-			"x-api-slug": "attom-data-solutions-api",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28881-api-developer-attomdata-com.jpg",
-			"humanURL": "https:\/\/api.developer.attomdata.com",
-			"baseURL": "https:\/\/search.onboard-apis.com\/\/communityapi\/v2.0.0",
-			"tags": "SaaS, Technology, Enterprise, Real Estate, Places, Schools, Properties, General Data, Historical Data API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/salestrendsnapshot-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/salestrendsnapshot-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/salesnapshot-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/salesnapshot-get-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Attom Data Solutions API",
-			"x-api-slug": "attom-data-solutions-api",
-			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28881-api-developer-attomdata-com.jpg",
-			"humanURL": "https:\/\/api.developer.attomdata.com",
-			"baseURL": "https:\/\/search.onboard-apis.com\/\/communityapi\/v2.0.0",
+			"name": "eBay",
+			"x-api-slug": "ebay",
+			"description": "Buy and sell electronics, cars, fashion apparel, collectibles, sporting goods, digital cameras, baby items, coupons, and everything else on eBay, the worlds online marketplace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg",
+			"humanURL": "https://ebay.com",
+			"baseURL": "https://api.ebay.com//",
 			"tags": "Historical Data",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/historical-data\/master\/_listings\/attom\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/ebay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GitHub",
+			"x-api-slug": "github",
+			"description": "GitHub brings together the worlds largest community of developers to discover, share, and build better software. From open source projects to private team repositories, were your all-in-one platform for collaborative development.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png",
+			"humanURL": "https://github.com",
+			"baseURL": "https:///",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/github/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/disqus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Europeana",
+			"x-api-slug": "europeana",
+			"description": "Explore 51,990,182 artworks, artefacts, books, videos and sounds from more than 3,500 museums, galleries, libraries and archives across Europe.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/777-europeana.jpg",
+			"humanURL": "http://europeana.eu/portal/",
+			"baseURL": "https://www.europeana.eu/v2/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/europeana/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsCred",
+			"x-api-slug": "newscred",
+			"description": "NewsCred is the leading enterprise content marketing company. NewsCred delivers content marketing solutions that drive business results for top brands",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg",
+			"humanURL": "http://newscred.com",
+			"baseURL": "https://api.newscred.com//",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/newscred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UK National Archives",
+			"x-api-slug": "uk-national-archives",
+			"description": "The National Archives (TNA) is a non-ministerial government department. Its parent department is the Department for Culture, Media and Sport of the United Kingdom of Great Britain and Northern Ireland. It is the official archive of the UK government and for England and Wales; and guardian of some of the nations most iconic documents, dating back more than 1,000 years. There are separate national archives for Scotland (the National Records of Scotland) and Northern Ireland (the Public Record Office of Northern Ireland).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg",
+			"humanURL": "http://discovery.nationalarchives.gov.uk/SearchUI/api.htm",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/uk-national-archives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenCorporates",
+			"x-api-slug": "opencorporates",
+			"description": "Free and Open Company Data on 135 million companies and corporations in over 125 jurisdictions, including US, UK, Switzerland, Panama...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg",
+			"humanURL": "http://opencorporates.com",
+			"baseURL": "://api.opencorporates.com/v0.4/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/opencorporates/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+			"x-api-slug": "bureau-of-alcohol-tobacco-firearms-and-explosives",
+			"description": "The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF, BATF, and BATFE) is a federal law enforcement organization within the United States Department of Justice.[4] Its responsibilities include the investigation and prevention of federal offenses involving the unlawful use, manufacture and possession of firearms and explosives; acts of arson and bombings; and illegal trafficking of alcohol and tobacco products. The ATF also regulates via licensing the sale, possession, and transportation of firearms, ammunition, and explosives in interstate commerce. Many of ATFs activities are carried out in conjunction with task forces made up of state and local law enforcement officers, such as Project Safe Neighborhoods. ATF operates a unique fire research laboratory in Beltsville, Maryland, where full-scale mock-ups of criminal arson can be reconstructed.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/399px-US-AlcoholTobaccoFirearmsAndExplosives-Seal.svg.png",
+			"humanURL": "http://atf.gov",
+			"baseURL": "https:///",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bureau-of-alcohol-tobacco-firearms-and-explosives/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bureau of Justice Statistics",
+			"x-api-slug": "bureau-of-justice-statistics",
+			"description": "The United States Bureau of Justice Statistics (BJS) is a federal government agency belonging to the U.S. Department of Justice and a principal agency of the U.S. Federal Statistical System. Established on December 27, 1979, the bureau collects, analyzes and publishes data relating to crime in the United States. The agency publishes data regarding statistics gathered from the roughly fifty-thousand agencies that comprise the U.S. justice system on its Web site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/US-DeptOfJustice-Seal.svg.png",
+			"humanURL": "http://bjs.gov",
+			"baseURL": "http://www.bjs.gov//bjs/ncvs/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bureau-of-justice-statistics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Data.Gov",
+			"x-api-slug": "data-gov",
+			"description": "data.gov is a U.S. government website launched in late May 2009 by the then Federal Chief Information Officer (CIO) of the United States, Vivek Kundra. According to its website, The purpose of data.gov is to increase public access to high value, machine readable datasets generated by the Executive Branch of the Federal Government. The site seeks to become a repository for all the information the government collects. The site would publish to the public any data that is not private or restricted for national security reasons.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png",
+			"humanURL": "http://data.gov/",
+			"baseURL": "https://catalog.data.gov//api/3/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/data-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Knoema",
+			"x-api-slug": "knoema",
+			"description": "Knoema is the free to use public and open data platform for users with interests in statistics and data analysis, visual storytelling and making infographics and data-driven presentations",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg",
+			"humanURL": "https://knoema.com",
+			"baseURL": "http://knoema.com//api/1.0",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/knoema/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mynewsdesk",
+			"x-api-slug": "mynewsdesk",
+			"description": "Discover the impact of Digital PR! Monitor what is being said about your brand, create your story, identify and engage your audience and analyze the results",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11441-mynewsdesk.jpg",
+			"humanURL": "http://www.mynewsdesk.com",
+			"baseURL": "https://www.mynewsdesk.com//services/pressroom/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/mynewsdesk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stocklytics",
+			"x-api-slug": "stocklytics",
+			"description": "Build feature rich, fast applications and websites based around accurate stock market data. Launch in hours rather than days using the Stocklytics API. The Stocklytics API is a powerful, low-cost RESTful API allowing you to create stock/ financial based apps and websites with data from our service. Such as historical stock price data that can be used for creating stock charts and determining trends. We also offer a company financial data API which allows your to get company information for a particular Stock Code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stocklytics-logo.png",
+			"humanURL": "http://stocklytics.com",
+			"baseURL": "https://api.stocklytics.com//services/pressroom/",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/stocklytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "The New York Times",
+			"x-api-slug": "the-new-york-times",
+			"description": "The New York Times: Find breaking news, multimedia, reviews & opinion on Washington, business, sports, movies, travel, books, jobs, education, real estate, cars & more at nytimes.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg",
+			"humanURL": "http://nytimes.com",
+			"baseURL": "https://api.nytimes.com//svc",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intrinio",
+			"x-api-slug": "intrinio",
+			"description": "Intelligent Data, On Demand. The financial data platform for developers, investors, students, and educators, with over 200 feeds including real-time, intraday, EOD, and international financial data available via REST API, WebSocket, CSV, Excel, and Goo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/intrinio-logo-data-intelligence-on-demand.png",
+			"humanURL": "http://www.intrinio.com",
+			"baseURL": "https:///",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/intrinio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IEX",
+			"x-api-slug": "iex",
+			"description": "IEX, the Investors Exchange, is a fair, simple and transparent stock exchange dedicated to investor and issuer protection.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28093-iex.jpg",
+			"humanURL": "https://iextrading.com",
+			"baseURL": "https://api.iextrading.com//1.0",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/iex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TradeStation",
+			"x-api-slug": "tradestation",
+			"description": "Whether you trade stocks, ETFs, options or futures, TradeStation???s award-winning tools and brokerage services can give you the confidence to achieve your goals.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tradestation_logo_285x40.png",
+			"humanURL": "http://www.tradestation.com",
+			"baseURL": "https://api.tradestation.com//v2",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/tradestation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "National Snow and Ice Data Center",
+			"x-api-slug": "national-snow-and-ice-data-center",
+			"description": "NSIDC manages and distributes scientific data, creates tools for data access, supports data users, performs scientific research, and educates the public about the cryosphere.",
+			"image": "",
+			"humanURL": "http://nsidc.org",
+			"baseURL": "https://nsidc.org//api/dataset/2",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/national-snow-and-ice-data-center/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"x-api-slug": "oxford-dictionaries",
+			"description": "If you&rsquo;re looking to enhance your app or website with dictionary data, don&rsquo;t compromise on quality. The Oxford Dictionaries API offers easy and intuitive access to Oxfords dictionary content, which is trusted around the world. Here at Oxford Dictionaries, home of the OED, we love words. That&rsquo;s why we have experienced lexicographers tracking the living language, delving deep into our corpora and monitoring a wide range of media in order to understand how words are being used and how language is evolving. This research is used by our editors to write and edit dictionary entries and translations, meaning we&rsquo;re able to offer up-to-date, accurate, and reliable lexical content in multiple languages.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oxford-dictionaries-api.png",
+			"humanURL": "https://developer.oxforddictionaries.com/",
+			"baseURL": "https://od-api-demo.oxforddictionaries.com:443//api/v1",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/oxford-dictionaries/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "School Digger",
+			"x-api-slug": "school-digger",
+			"description": "Start your search for a great school at SchoolDigger.com! We have test scores, rankings, school and district boundaries, student/teacher ratios, ethnic makeup, and scores of other useful metrics and information for over 120,000 elementary, middle, and high schools in the United States!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/schooldigger.png",
+			"humanURL": "http://schooldigger.com",
+			"baseURL": "https://api.schooldigger.com//",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/school-digger/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BBC",
+			"x-api-slug": "bbc",
+			"description": "Breaking news, sport, TV, radio and a whole lot more. The BBC informs, educates and entertains - wherever you are, whatever your age.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28554-bbc-nitro.jpg",
+			"humanURL": "http://www.bbc.com/",
+			"baseURL": "https://programmes.api.bbc.com//nitro/api",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bbc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BC Geographical Names",
+			"x-api-slug": "bc-geographical-names",
+			"description": "Geographical names are more than labels on maps and road signs. They can reveal patterns of settlement, exploration and migration, and mirror outside influences to our history - aspects of the heritage and promise of an area that might otherwise be overlooked or forgotten by visitors and later generations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/british-columbia.png",
+			"humanURL": "https://apps.gov.bc.ca/pub/bcgnws/",
+			"baseURL": "https://apps.gov.bc.ca//pub/geomark",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bc-geographical-names/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RipaEx",
+			"x-api-slug": "ripaex",
+			"description": "Ripa Exchange is an hybrid-decentralized exchange with a strong focus on lowering the entry level for opening new exchanges and giving crypto traders safe and secure trading partners to operate on a daily basis.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28880-ripaex-io.jpg",
+			"humanURL": "http://www.ripaex.io",
+			"baseURL": "https://api.ripaex.io//",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/ripaex/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Historical Data",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/attom/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-openapi",
-			"url": "https:\/\/api.developer.attomdata.com\/swagger\/spec\/propertyapi_property.json"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/atlassian.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/attom.stack.network"
-		},
-		{
-			"type": "x-email",
-			"url": "privacy@attomdata.com"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/Attomdata"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/api.developer.attomdata.com"
-		}
-	],
+	"tags": "Historical Data",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "eBay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/ebay/apis.yaml"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/github/apis.yaml"
+		},
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/disqus/apis.yaml"
+		},
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "Europeana",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/europeana/apis.yaml"
+		},
+		{
+			"name": "NewsCred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/newscred/apis.yaml"
+		},
+		{
+			"name": "UK National Archives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/uk-national-archives/apis.yaml"
+		},
+		{
+			"name": "OpenCorporates",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/opencorporates/apis.yaml"
+		},
+		{
+			"name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bureau-of-alcohol-tobacco-firearms-and-explosives/apis.yaml"
+		},
+		{
+			"name": "Bureau of Justice Statistics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bureau-of-justice-statistics/apis.yaml"
+		},
+		{
+			"name": "Data.Gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/data-gov/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "Knoema",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/knoema/apis.yaml"
+		},
+		{
+			"name": "Mynewsdesk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/mynewsdesk/apis.yaml"
+		},
+		{
+			"name": "Stocklytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/stocklytics/apis.yaml"
+		},
+		{
+			"name": "The New York Times",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Intrinio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/intrinio/apis.yaml"
+		},
+		{
+			"name": "IEX",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/iex/apis.yaml"
+		},
+		{
+			"name": "TradeStation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/tradestation/apis.yaml"
+		},
+		{
+			"name": "National Snow and Ice Data Center",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/national-snow-and-ice-data-center/apis.yaml"
+		},
+		{
+			"name": "Oxford Dictionaries",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/oxford-dictionaries/apis.yaml"
+		},
+		{
+			"name": "School Digger",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/school-digger/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/transport-for-london-unified/apis.yaml"
+		},
+		{
+			"name": "BBC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bbc/apis.yaml"
+		},
+		{
+			"name": "BC Geographical Names",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/bc-geographical-names/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "RipaEx",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/ripaex/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/attom/apis.yaml"
 		}
 	]
 }

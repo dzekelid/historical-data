@@ -15,6 +15,34 @@ produces:
 consumes:
 - application/json
 paths:
+  actions-on-federal-firearms-license-applications.json:
+    get:
+      summary: Actions On Federal Firearms License Applications
+      description: Actions On Federal Firearms License Applications
+      operationId: getActionsOnFederalFirearmsLicenseApplications.json
+      x-api-path-slug: actionsonfederalfirearmslicenseapplications-json-get
+      parameters:
+      - in: query
+        name: applications_abandoned
+      - in: query
+        name: applications_denied
+      - in: query
+        name: applications_withdrawn
+      - in: query
+        name: fiscal_year
+      - in: query
+        name: original_applications_processed
+      responses:
+        200:
+          description: OK
+      tags:
+      - Actions
+      - "On"
+      - Federal
+      - Firearms
+      - License
+      - Applications
+      - Json
   firearms-imports.json:
     get:
       summary: Firearms Imports

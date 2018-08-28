@@ -8,128 +8,84 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-
 x-kinRank: "9"
 x-alexaRank: "117"
 tags: Historical Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/apis.md
 specificationVersion: "0.14"
 apis:
-- name: The New York Times
-  x-api-slug: the-new-york-times
-  description: you-already-know-that-nytimes-com-is-an-unparalleled-source-of-news-and-information--but-now-its-a-premier-source-of-data-too--why-just-read-the-news-when-you-can-hack-it
+- name: New York Times - Article Search
+  x-api-slug: searchv2articlesearch-json-get
+  description: Article SearchWith the Article Search API, you can search New York
+    Times articles from Sept. 18, 1851 to today, retrieving headlines, abstracts,
+    lead paragraphs, links to associated multimedia and other article.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
   humanURL: http://nytimes.com
   baseURL: https://api.nytimes.com//svc
   tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
-    Service API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+    Service API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-openapi.md
-- name: The New York Times
-  x-api-slug: the-new-york-times
-  description: you-already-know-that-nytimes-com-is-an-unparalleled-source-of-news-and-information--but-now-its-a-premier-source-of-data-too--why-just-read-the-news-when-you-can-hack-it
+- name: New York Times - Best Seller List
+  x-api-slug: booksv2lists-format-get
+  description: The Books API has services for getting information about The New York
+    Times Best Sellers Lists and Book Reviews.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
   humanURL: http://nytimes.com
   baseURL: https://api.nytimes.com//svc
   tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
-    Service API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+    Service API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-openapi.md
-- name: The New York Times
-  x-api-slug: the-new-york-times
-  description: you-already-know-that-nytimes-com-is-an-unparalleled-source-of-news-and-information--but-now-its-a-premier-source-of-data-too--why-just-read-the-news-when-you-can-hack-it
+- name: New York Times - Best Seller List by Date
+  x-api-slug: booksv2listsdatelist-json-get
+  description: You can optionally request an overview for a specific published date
+    using the published_date query parameter.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
   humanURL: http://nytimes.com
   baseURL: https://api.nytimes.com//svc
   tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
-    Service API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+    Service API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2listsdatelist-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2listsdatelist-json-get-openapi.md
-- name: The New York Times
-  x-api-slug: the-new-york-times
-  description: you-already-know-that-nytimes-com-is-an-unparalleled-source-of-news-and-information--but-now-its-a-premier-source-of-data-too--why-just-read-the-news-when-you-can-hack-it
+- name: New York Times - Geographic API
+  x-api-slug: query-json-get
+  description: The Geographic API extends the Semantic API, using a linked data approach
+    to enhance location concepts used in The New York Times' controlled vocabulary
+    and data resources which combine them with the GeoNames database, an authoritative
+    and free to use database of global geographical places, names and features.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
   humanURL: http://nytimes.com
   baseURL: https://api.nytimes.com//svc
   tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
-    Service API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+    Service API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2listsdatelist-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2listsdatelist-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/query-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/query-json-get-openapi.md
-- name: The New York Times
-  x-api-slug: the-new-york-times
-  description: you-already-know-that-nytimes-com-is-an-unparalleled-source-of-news-and-information--but-now-its-a-premier-source-of-data-too--why-just-read-the-news-when-you-can-hack-it
+- name: New York Times - Movie Review Search
+  x-api-slug: moviesv2reviewssearch-json-get
+  description: With the Movie Reviews API, you can search New York Times movie reviews
+    by keyword and get lists of NYT Critics' Picks.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
   humanURL: http://nytimes.com
   baseURL: https://api.nytimes.com//svc
   tags: Media, News, API Provider, Profiles, Publish, General Data, Relative Data,
-    Service API, Pedestal, Historical Data API, StreamRank, Relative StreamRank
+    Service API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/searchv2articlesearch-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2lists-format-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2listsdatelist-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/booksv2listsdatelist-json-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/query-json-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/query-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/moviesv2reviewssearch-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/moviesv2reviewssearch-json-get-openapi.md
-- name: The New York Times
-  x-api-slug: the-new-york-times
-  description: 'The New York Times: Find breaking news, multimedia, reviews & opinion
-    on Washington, business, sports, movies, travel, books, jobs, education, real
-    estate, cars & more at nytimes.com.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18820-new-york-times.jpg
-  humanURL: http://nytimes.com
-  baseURL: https://api.nytimes.com//svc
-  tags: Historical Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/the-new-york-times/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://the.guardian.api.gallery.streamdata.io

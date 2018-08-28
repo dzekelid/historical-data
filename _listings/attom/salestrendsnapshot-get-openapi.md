@@ -5,9 +5,9 @@ x-complete: 0
 info:
   title: Attom Data Solutions API Returns sales trends for a given zip code in yearly
     intervals
-  version: 1.0.0
   description: Get the average sale price, median sale price, and count of sales for
     the past 2 years in yearly intervals.
+  version: 1.0.0
 host: search.onboard-apis.com
 basePath: /communityapi/v2.0.0
 schemes:

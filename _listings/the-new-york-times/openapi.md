@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: The New York Times
 x-complete: 1
@@ -265,4 +264,3 @@ paths:
       tags:
       - Movies
       - Reviews
----

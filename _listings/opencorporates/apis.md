@@ -7,14 +7,15 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-openc
 x-kinRank: "9"
 x-alexaRank: "53526"
 tags: Historical Data
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/opencorporates/apis.md
 specificationVersion: "0.14"
 apis:
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: the-api-for-managing-opencorporates-data-
+- name: OpenCorporates - Account Status
+  x-api-slug: account-status-get
+  description: nThis returns the status of your API Account (this information may
+    also be retrieved at https://OpenCorporates
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
   humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4/
@@ -24,9 +25,10 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/opencorporates/account-status-get-openapi.md
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: the-api-for-managing-opencorporates-data-
+- name: OpenCorporates - Officers  ID
+  x-api-slug: officersid-get
+  description: nThis returns information on a particular officer (a director or an
+    agent for a company)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
   humanURL: http://opencorporates.com
   baseURL: ://api.opencorporates.com/v0.4/
@@ -34,25 +36,8 @@ apis:
     My API Stack, API LIfeyclessss, Target, Business, Stack Network, Technology, SaaS,
     General Data, Service API, Pedestal
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/opencorporates/account-status-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/opencorporates/officersid-get-openapi.md
-- name: OpenCorporates
-  x-api-slug: opencorporates
-  description: OpenCorporates is a database of corporate data. OpenCorporates offers
-    users the ability to search for information on 30 million corporations from around
-    the world. Users can also search by type of corporation. The OpenCorporates API
-    allows developers to access and integrate the data and functionality of OpenCorporates
-    with other applications. Some example API methods include searching and retrieving
-    information on corporation by type, jurisdiction, and company ID.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1108-opencorporates.jpg
-  humanURL: http://opencorporates.com
-  baseURL: ://api.opencorporates.com/v0.4/
-  tags: Historical Data
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/historical-data/master/_listings/opencorporates/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://opencage.api.gallery.streamdata.io

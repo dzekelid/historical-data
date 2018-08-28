@@ -5,9 +5,9 @@ x-complete: 0
 info:
   title: Attom Data Solutions API Returns home sale information for properties within
     a geography.
-  version: 1.0.0
   description: Get a list of home sale snapshots within a Onboard GeoID that sold
     within a date range and specified sale amount.
+  version: 1.0.0
 host: search.onboard-apis.com
 basePath: /communityapi/v2.0.0
 schemes:
